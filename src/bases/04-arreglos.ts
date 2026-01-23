@@ -1,10 +1,10 @@
-// Arreglos o Arrays
-const myArrey = [1,2,3,4,5]
-const myArrey2 = [1,2,'katherin',4,5]
+// Arreglos o arrays
+const myArray = [1, 2, 3, 4, 5];
+const myArray2 = [1, 2, "Katherin", 4, 5];
 
-for(const myNumber of myArrey2){
-console.log(myNumber)
+for (const myNumber of myArray2) {
+  console.log(myNumber);
 }
 
-const pocicions:number[] =[1,2,3,4]//solo numeros
-const names:string[] =['katherin','ana','maria']//solo strings
+const positions: number[] = [1, 2, 3, 4]; // Solo números
+const names: string[] = ["Katherin", "Ana", "María"]; // Solo strings
