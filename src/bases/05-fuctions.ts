@@ -1,12 +1,12 @@
-function greet(name: string): string {
+function greet(name: string): string {//(nombre del parámetro: tipo de dato) : tipo de dato que retorna
   return `Hola ${name}`;
 }
 
-const saludo = (name: string): string => {
+const saludo = (name: string): string => {// const  nombre = (parámetros)=> {cuerpo de la función}
   return `Hola ${name}`;
 };
 
-const shortGreet = (name: string): string => `Hola ${name}`;
+const shortGreet = (name: string): string => `Hola ${name}`;//funcion de una sola línea solo retorna el valor
 
 const message1 = greet("Goku");
 const message2 = saludo("Vegeta");
