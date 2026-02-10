@@ -8,7 +8,8 @@ import './style.css';
 //import'./bases/0.7-arrey-destructuring';
 //import'./bases/08-imp-exp'
 //import'./bases/09-promises'
-import'./bases/10-fetch-api'
+//import'./bases/10-fetch-api'
+import'./bases/10.1-fetch-api'
 //import { getHeroByOwener } from './bases/08-imp-exp';
 //import { Owner } from './data/heroes.data';
 

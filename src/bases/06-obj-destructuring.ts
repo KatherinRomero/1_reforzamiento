@@ -17,7 +17,7 @@ interface Hero{
     rank?:string,
 }
 
-const useContext=(hero:Hero)=>{//destructuracion en parametros
+const useContext=(hero:Hero)=>{//recibe un objeto de tipo Hero y devuelve un nuevo objeto
     const{name,age,key,rank} = hero
     return{
        key,
